@@ -86,7 +86,7 @@ function Home() {
               <thead>
                 <tr>
                   <th>앨범</th>
-                  <th>트랙</th>
+                  {/* <th>트랙</th> */}
                   <th>곡명</th>
                   <th>작곡</th>
                   <th>작사</th>
@@ -98,7 +98,7 @@ function Home() {
                 {searchResults.map((row, i) => (
                   <tr key={i}>
                     <td>{row['앨범']}</td>
-                    <td>{row['트랙번호']}</td>
+                    {/* <td>{row['트랙번호']}</td> */}
                     <td>{row['곡제목']}</td>
                     <td>{row['작곡']}</td>
                     <td>{row['작사']}</td>
