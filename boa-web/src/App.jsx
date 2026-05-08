@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
 import AlbumDetail from './AlbumDetail'
 import './App.css'
-import { useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
@@ -68,7 +67,7 @@ function Home() {
   return (
     <div className="container">
       <div className='title-area'  onClick={() => { navigate('/'); setQuery('') }}> 
-        <h1 >공중정원</h1>
+        <h1>공중정원</h1>
         <p>BoA Archive</p>
       </div>      
       <input
