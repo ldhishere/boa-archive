@@ -69,7 +69,7 @@ function Home() {
     <div className="container">
       <div className='title-area'  onClick={() => { navigate('/'); setQuery('') }}> 
         <h1 >공중정원</h1>
-        <p>BoA Discography</p>
+        <p>BoA Archive</p>
       </div>      
       <input
         className="search"
