@@ -294,9 +294,9 @@ h1 {
     width: calc(50% - 8px);
   }
   .search-results {
-    min-width: 500px;
+    overflow-x: auto;
   }
-  
+
   .search-results table {
     width: 100%;
     min-width: 500px;
